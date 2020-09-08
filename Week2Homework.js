@@ -4,10 +4,13 @@ let numberOfToppings = 5;
 console.log(pizzaPlace, typeof pizzaPlace);
 console.log(numberOfToppings, typeof numberOfToppings);
 
-console.log("I own ${pizzaPlace} and we have ${numberOfToppings} toppings.");
+console.log("I own " ${pizzaPlace} " and we have " ${numberOfToppings} " toppings.");
 
 if (numberOfToppings < 10) {
   console.log("Quality, not quantity.");
 } else {
   console.log("A whole lot of pizza.");
+}
+for (let i = 1; i <= numberOfToppings; i++) {
+  console.log(i);
 }
